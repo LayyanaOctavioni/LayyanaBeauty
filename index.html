@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layyana Beauty</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FEATHER ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- Header part START -->
+    <header>
+      <div class="navbar-header">
+        <a href="#about">Layyana Beauty</a>
+      </div>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#form">Form</a>
+        <a href="#products">Products</a>
+      </nav>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" id="search-box-btn"
+          ><i data-feather="search"></i
+        ></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart"></div>
+      <div class="result">
+        <h1>Total :<span class="result-pay">IDR 0K</span></h1>
+
+        <div class="result-btn">
+          <button class="result-btn-co">CheckOut</button>
+          <button class="result-btn-del">Delete</button>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </header>
+    <!-- Header part END -->
+
+    <!-- HOME part START -->
+    <section id="home" class="home">
+      <div class="mask-container">
+        <main class="content">
+          <h1>Telusuri gaya dengan kegembiraan yang <span>murni.</span></h1>
+        </main>
+        <button>Shop Now</button>
+      </div>
+    </section>
+    <!-- HOME part END -->
+
+    <!-- ABOUT part START -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="asset/image2.jpg" alt="Fashioner product" />
+        </div>
+        <div class="content">
+          <h3>Why <span>Layyana Beauty</span> product ?</h3>
+          <p>
+            Karena Layyana Beauty hanya bekerja sama dengan produsen dan merek
+            terkemuka untuk memastikan bahwa setiap produk yang ditawarkan
+            memenuhi standar kualitas yang tinggi. Pelanggan dapat membeli
+            dengan percaya diri, mengetahui bahwa mereka mendapatkan produk
+            berkualitas.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT part END -->
+
+    <!-- FORM part START -->
+    <section class="form" id="form">
+      <div class="form-page">
+        <div class="form-header">
+          <h2>Login</h2>
+          <p>Form</p>
+        </div>
+        <form>
+          <fieldset>
+            <legend>Nama</legend>
+            <input type="text" placeholder="John Lee" />
+          </fieldset>
+          <fieldset>
+            <legend>Email</legend>
+            <input type="email" placeholder="example@gmail.com" />
+          </fieldset>
+          <fieldset>
+            <legend>No.Handphone</legend>
+            <input type="tel" placeholder="08xxxxxxxx" />
+          </fieldset>
+          <div class="btn-form">
+            <button>SUBMIT</button>
+            <button>LOGOUT</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- FORM part END -->
+
+    <!-- PRODUCT part START -->
+    <section class="products" id="products">
+      <h2><span>Layyana Beauty</span> Product</h2>
+      <p>Setiap pembelian adalah bab baru dalam kisah hidup kita.</p>
+      <div class="parents-row">
+        <div class="row">
+          <div class="product-img">
+            <img src="asset/product-1.jpg" alt="product" />
+          </div>
+          <div class="product-content">
+            <h3>Parfume</h3>
+            <p class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </p>
+            <p class="product-price">IDR 300K <span></span></p>
+          </div>
+          <div class="product-icons">
+            <div class="icons">
+              <a href="#" id="addToCart1"
+                ><i data-feather="shopping-cart"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="#" class="item-detail-button-satu"
+                ><i data-feather="eye"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product-img">
+            <img src="asset/product-2.jpg" alt="product" />
+          </div>
+          <div class="product-content">
+            <h3>Lipstick</h3>
+            <p class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </p>
+            <p class="product-price">IDR 200K <span></span></p>
+          </div>
+          <div class="product-icons">
+            <div class="icons">
+              <a href="#" id="addToCart2"
+                ><i data-feather="shopping-cart"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="#" class="item-detail-button-dua"
+                ><i data-feather="eye"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product-img">
+            <img src="asset/product-3.jpg" alt="product" />
+          </div>
+          <div class="product-content">
+            <h3>Eyeliner</h3>
+            <p class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </p>
+            <p class="product-price">IDR 150K <span></span></p>
+          </div>
+          <div class="product-icons">
+            <div class="icons">
+              <a href="#" id="addToCart3"
+                ><i data-feather="shopping-cart"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="#" class="item-detail-button-tiga"
+                ><i data-feather="eye"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product-img">
+            <img src="asset/product-4.jpg" alt="product" />
+          </div>
+          <div class="product-content">
+            <h3>Blush On</h3>
+            <p class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </p>
+            <p class="product-price">IDR 280K <span></span></p>
+          </div>
+          <div class="product-icons">
+            <div class="icons">
+              <a href="#" id="addToCart4"
+                ><i data-feather="shopping-cart"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="#" class="item-detail-button-empat"
+                ><i data-feather="eye"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRODUCT part END -->
+
+    <!-- FOOTER part START -->
+    <footer>
+      <div class="socials">
+        <a
+          href="https://www.facebook.com/lianaa.octvnii19?mibextid=eQY6cl"
+          target="_blank"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a
+          href="https://www.facebook.com/lianaa.octvnii19?mibextid=eQY6cl"
+          target="_blank"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#form">Form</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Liana Octavioni.</a> | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- FOOTER part END -->
+    <!-- Modal Box Item Detail start -->
+    <div class="modal modal-satu" id="item-detail-modal-satu">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="asset/product-1.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Parfume</h3>
+            <p>
+              Wangi parfum itu menawan, mengundang, dan memikat, menyapamu
+              dengan aroma yang memikat, membuatmu merasa dihargai, dan
+              mencerahkan setiap momen hidupmu.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 300K <span></span></div>
+            <button id="addToCartbtn1">add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-dua" id="item-detail-modal-dua">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="asset/product-2.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Lipstick</h3>
+            <p>
+              Lipstik ini memiliki warna yang memikat, tekstur yang lembut, dan
+              daya tahan yang luar biasa, memberikan kilauan yang memesona,
+              menyempurnakan tampilanmu.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 200K <span></span></div>
+            <button id="addToCartbtn2">add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-tiga" id="item-detail-modal-tiga">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="asset/product-3.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Eyeliner</h3>
+            <p>
+              Eyeliner ini memiliki kekuatan warna yang intens dan formula tahan
+              lama yang tidak luntur, memberikan garis mata yang tajam,
+              menonjolkan kecantikanmu.
+            </p>
+
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 150k <span></span></div>
+            <button id="addToCartbtn3">add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-empat" id="item-detail-modal-empat">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="asset/product-4.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Blush On</h3>
+            <p>
+              Blush on ini memiliki nuansa warna yang lembut, tekstur yang
+              halus, dan daya tahan yang luar biasa, memberikan sentuhan alami
+              yang mempesona, merona pada pipimu.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 280K <span></span></div>
+            <button id="addToCartbtn4">add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Item Detail end -->
+    <!-- Feather ICON JS -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- JS SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
